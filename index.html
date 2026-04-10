@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>RUNPRO 2K26</title>
+
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('images/logo.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from { filter: drop-shadow(0 0 5px red); }
+  to { filter: drop-shadow(0 0 20px red); }
+}
+
+.btn {
+  display: block;
+  margin: 15px auto;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: none;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <img class="logo" src="images/logo.png">
+
+  <button class="btn">▶ เริ่มใช้งาน</button>
+
+  <a href="https://discord.gg/p34WpBu7" target="_blank">
+    <button class="btn">💬 เข้า Discord</button>
+  </a>
+
+</div>
+
+</body>
+</html>
